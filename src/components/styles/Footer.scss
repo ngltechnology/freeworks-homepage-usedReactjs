@@ -1,0 +1,48 @@
+footer{
+  background: #000000;
+}
+.copylight{
+  color:white;
+}
+.footerBottom{
+  p{
+    color: white;
+  }
+  background: #000000;
+  border-top: 1px solid white;
+}
+
+@media screen and (min-width: 1000px){
+  footer{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    height: 300px;
+  }
+  .innerFooter{
+    width:1000px;
+    margin: auto;
+    height:250px;
+  }
+  .fwlogo{
+    height:40px;
+    width: 100px;
+  }
+  ul{
+    display: inline-block;
+    margin: 50px;
+    text-align: left;
+  }
+  li{
+    margin: 5px;
+  }
+  .listHead{
+    font-size: 20px;
+  }
+  .footerBottom{
+    height: 50px;
+    width:100%;
+    bottom: 0px;
+    vertical-align: middle;
+  }
+}
