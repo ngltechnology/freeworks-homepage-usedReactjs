@@ -1,4 +1,4 @@
-#ローカルで実行する
+# ローカルで実行する
 
 ### develop Branchをgit cloneする
 
