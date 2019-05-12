@@ -24,19 +24,25 @@ footer{
     margin: auto;
     height:250px;
   }
-  .fwlogo{
+  .logo{
+    margin: 25px;
     height:40px;
-    width: 100px;
+    width: 200px;
   }
   ul{
     display: inline-block;
-    margin: 50px;
+    width: 200px;
+    margin: 50px 25px;
     text-align: left;
   }
   li{
-    margin: 5px;
+    margin: 10px;
+  }
+  li:hover{
+    color: skyblue;
   }
   .listHead{
+    margin: 15px 15px 15px 10px;
     font-size: 20px;
   }
   .footerBottom{

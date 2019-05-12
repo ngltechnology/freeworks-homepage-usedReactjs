@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom"
 
-import freeworksLogo from "./FREEWORKS.png"
+import logo from "./FREEWORKS.png"
 import "./styles/Footer.scss"
 
 export default () => { 
@@ -41,7 +41,7 @@ export default () => {
   return (
     <footer>
       <div className="innerFooter">
-        <img className="fwlogo" src="freeworksLogo" />
+        <img className="logo" src={logo} alt="logo" />
         <ul className="uiLeft">
           {_renderList(0,"/servise","Servise")}
         </ul>  
