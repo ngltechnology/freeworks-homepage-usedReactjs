@@ -1,4 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#ローカルで実行する
+
+### develop Branchをgit cloneする
+
+`git clone https://github.com/ngltechnology/freeworks-homepage-usedReactjs.git`
+
+
+### 必要なライブラリをインストールする
+
+ディレクトリを移動して、
+
+`cd freeworks-homepage-usedReactjs`
+
+
+ライブラリインストール
+
+`npm install`
+
+or
+
+`yarn`
+
+
+### 実行する
+
+`npm run start`
+
+or
+
+`yarn start`
+
 
 ## Available Scripts
 
