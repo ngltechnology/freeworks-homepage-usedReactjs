@@ -41,3 +41,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+  text-decoration-line: none;
+  border: none;
+  outline: none;
+  color: white;
+
+}
+a:hover{
+  color: skyblue;
+}
