@@ -8,6 +8,7 @@ footer{
   p{
     color: white;
   }
+  vertical-align:middle;
   background: #000000;
   border-top: 1px solid white;
 }
@@ -23,7 +24,7 @@ footer{
     width:1000px;
     margin: auto;
     height:250px;
-  }
+  
   .logo{
     margin: 25px;
     height:40px;
@@ -51,4 +52,5 @@ footer{
     bottom: 0px;
     vertical-align: middle;
   }
+}
 }

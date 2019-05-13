@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 import AppBar from "../components/AppBar.jsx"
 import "./styles/home.scss"
@@ -10,10 +11,10 @@ export default () => {
       <div className="HomeApp">
         <div className="content">
           <div className="left">
-            <button className="leftButton">Partnerとして働く</button>
-                      </div>
+            <Link><p>Partnerとして働く</p></Link>
+          </div>
           <div className="right">
-            <button className="rightButton">法人Partnerとして依頼する</button>
+            <Link><p>法人Partnerとして依頼する</p></Link>
 
           </div>
         </div>
