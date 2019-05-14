@@ -6,32 +6,33 @@
 }
 @media screen and (min-width: 1000px){
   
-.HomeApp{
-  margin: auto;
-  text-align: center;
-  width: 1000px;
-  img{
-    width:1000px;
-    height: 500px;
+  .HomeApp{
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    
+    img{
+      width:1000px;
+      height: 500px;
+    }
+    .content{
+      height: 500px;
+    }
+    .left{
+      display:inline-block;
+      width: 500px;
+      height: 500px;
+    }
+    .right{
+      display:inline-block;
+      height: 500px;
+      width:500px;
+    }
+    .a1:hover{
+      outline: solid 2px skyblue;
+    }
+    .a2:hover{
+      outline: solid 2px skyblue;
+    }
   }
-  .content{
-    height: 500px;
-  }
-  .left{
-    display:inline-block;
-    width: 500px;
-    height: 500px;
-  }
-  .right{
-    display:inline-block;
-    height: 500px;
-    width:500px;
-  }
-  .a1:hover{
-    outline: solid 4px black;
-  }
-  .a2:hover{
-    outline: solid 4px black;
-  }
-}
 }

@@ -5,21 +5,39 @@ import AppBar from "../components/AppBar.jsx"
 import "./styles/home.scss"
 import topimage from "../components/topimage.png"
 
-export default () => {
+import { withStyles, Card } from "@material-ui/core"
+import fwmovie from "./large.MOV"
+
+const styles = {
+  card: {
+    margin: "50px",
+    width: "400px",
+    height: "400px",
+    textAlign: "center",
+  }
+}
+
+const HomeApp = props => {
+  const { classes } = props
   return(
     <React.Fragment>
       <AppBar />
       <div className="HomeApp">
+        <video src={fwmovie} style={{width: "1000px"}} autoplay loop />
         <img src={topimage} alt="topimage"/>
         <div className="content">
-          <Link>
+          <Link to="/service">
             <div className="left a1">
-              <p>個人Partnerとして<br/>仕事を受ける</p>
+              <Card className={classes.card}>
+                <h2>個人Partnerとして<br/>仕事を受ける</h2>
+              </Card>        
             </div>
           </Link>
-          <Link>
+          <Link to="/service">
             <div className="right a2">
-              <p>法人Partnerとして<br/>仕事を依頼する</p>
+              <Card className={classes.card}>
+                <h3>法人Partnerとして<br/>仕事を依頼する</h3>
+              </Card>
             </div>
           </Link>
         </div>
@@ -28,3 +46,5 @@ export default () => {
     </React.Fragment>
   )
 }
+
+export default withStyles(styles)(HomeApp);
