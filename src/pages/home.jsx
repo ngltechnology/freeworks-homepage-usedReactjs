@@ -23,7 +23,7 @@ const HomeApp = props => {
     <React.Fragment>
       <AppBar />
       <div className="HomeApp">
-        <video src={fwmovie} style={{width: "1000px"}} autoplay loop />
+        <video src={fwmovie} style={{width: "1000px"}} autoplay loop controls />
         <img src={topimage} alt="topimage"/>
         <div className="content">
           <Link to="/service">
